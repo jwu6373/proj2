@@ -2,17 +2,32 @@ public class Rebaser
 {
     private String resultValue;
     private int storedValue;
+    /**
+     * This constructor sets the stored value to value. You do not need to worry about the size of the
+     * number (assume it will fit in an int), but if the parameter does not represent a
+     * number in base 16 or less, 
+     * this constructor should set the stored value to "0".
+     *
+     */
     public Rebaser()
     {
         storedValue = 0;
+        resultValue = "0";
     }
+    /**This constructor sets the stored value to value. You do not need to worry about the 
+     * size of the number (assume it will fit in an int), but if the parameter does not represent a number in base 16 or less,
+     * this constructor should set the stored value to "0".
+     * 
+     */
     public Rebaser(String value)
     {
         storedValue = value.parseInt;
+        resultValue = value;
     }
     public void setValue(String value)
     {
         storedValue = value.parseInt;
+        //look for 
     }
     public String getValue()
     {
@@ -20,7 +35,22 @@ public class Rebaser
     }
     public String convertToBaseN(int toBase)
     {
-        
+        // Check how long is the number
+        // Divide the number by the base as many times as it needs to do it using If Then :) 
+        // WHILE LOOP!!!!!!!! while its lenght is still mroe than 0
     }
+    /**
+     * This method takes the stored value, which should be in base fromBase, and converts 
+     * it to base 10, then returns the converted value as a string. If the stored value is not 
+     * in base fromBase (because there are digits bigger than or equal to fromBase), then the
+     * method should return the value "-1". This method should not modify the stored value.
+     */
     public String convertToBaseTen(int fromBase)
+    {
+        String toBaseTen = fromBase.parseString;
+        fromBase.toLowerCase();
+        //take each digit and multiply it by the fromBase^x depending on which digit and we
+        // can use if statemnts :) 
+    }
+}
         
