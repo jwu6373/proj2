@@ -1,1 +1,26 @@
-
+public class Rebaser
+{
+    private String resultValue;
+    private int storedValue;
+    public Rebaser()
+    {
+        storedValue = 0;
+    }
+    public Rebaser(String value)
+    {
+        storedValue = value.parseInt;
+    }
+    public void setValue(String value)
+    {
+        storedValue = value.parseInt;
+    }
+    public String getValue()
+    {
+        return resultValue;
+    }
+    public String convertToBaseN(int toBase)
+    {
+        
+    }
+    public String convertToBaseTen(int fromBase)
+        
