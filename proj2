@@ -21,12 +21,12 @@ public class Rebaser
      */
     public Rebaser(String value)
     {
-        storedValue = value.parseInt;
+        storedValue = Integer.parseInt(value);
         resultValue = value;
     }
     public void setValue(String value)
     {
-        storedValue = value.parseInt;
+        storedValue = Integer.parseInt(value);
         //look for 
     }
     public String getValue()
@@ -38,6 +38,7 @@ public class Rebaser
         // Check how long is the number
         // Divide the number by the base as many times as it needs to do it using If Then :) 
         // WHILE LOOP!!!!!!!! while its lenght is still mroe than 0
+        return "";
     }
     /**
      * This method takes the stored value, which should be in base fromBase, and converts 
@@ -47,10 +48,11 @@ public class Rebaser
      */
     public String convertToBaseTen(int fromBase)
     {
-        String toBaseTen = fromBase.parseString;
-        fromBase.toLowerCase();
+        String toBaseTen = Integer.toString(fromBase);
+        toBaseTen.toLowerCase();
         //take each digit and multiply it by the fromBase^x depending on which digit and we
         // can use if statemnts :) 
+        return "";
     }
 }
-        
+//the return empty strings are just so that it'll compile 
